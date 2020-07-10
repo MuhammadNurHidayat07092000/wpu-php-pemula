@@ -10,7 +10,7 @@
 
     //cara baru
     $bulan = ["januari", "februari"];
-    $arr1  = [123, "tulisan", true]
+    $arr1  = [123, "tulisan", true];
 
     //tampil
     // var_dump() / print_r()

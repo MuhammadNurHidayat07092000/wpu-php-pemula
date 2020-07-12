@@ -42,6 +42,7 @@ $mhs = [
                 </a>
             </li>
         <?php endforeach; ?>
+        <p>Paragraf</p>
     </ul>
 </body>
 </html>

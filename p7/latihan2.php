@@ -1,11 +1,11 @@
 <?php
 // cek apakah tidak ada data di $_GET
 // isset => mengecek apakah sebuah variabel udah pernah dibikin apa belum
-if( !isset($_GET["nama"])) || 
+if( !isset($_GET["nama"]) ||
     !isset($_GET["nrp"]) ||
     !isset($_GET["jurusan"]) ||
     !isset($_GET["email"]) ||
-    !isset($_GET["gambar"]) {
+    !isset($_GET["gambar"])) {
     // redirect
     header("location: latihan1.php");
     exit;
@@ -14,7 +14,7 @@ if( !isset($_GET["nama"])) ||
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

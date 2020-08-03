@@ -13,7 +13,7 @@
 
     <?php endif ;?>
 
-    <form action="" method="post"> 
+    <form action="latihan4.php" method="post"> 
         Masukkan Nama :
         <input type="text" name="nama">
         <br>

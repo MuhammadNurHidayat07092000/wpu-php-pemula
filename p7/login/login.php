@@ -26,7 +26,7 @@ if(isset($_POST["submit"])) {
 
     <?php if(isset($error)) :?>
 
-    <p style="color: red;">Username ato pw salah</p>
+    <p style="color: red; font-style: italic;">Username ato pw salah</p>
 
     <?php endif; ?>
 
